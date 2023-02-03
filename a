@@ -1,0 +1,26 @@
+                Crear un proyecto vacio
+
+CREAR la carpeta -->src +subCarpetas--> controller, database, router
+CARPETA src crear  archivos--> app.js, config.js, index.js
+AFUERA de src crear estos archivos--> .baberc y .env
+
+--> npm init -y 
+-->npm i dotenv  // para crear variables entorno
+--> npm i express
+--> npm i promise-mysql
+--> npm i nodemon //NODEMON: permite que se actualize la pagina en el momento que hago cambios
+--> npm i morgan //MORGAN es para peticiones en consola
+poder manejar nuestras coneccciones de manera asincrona -->npm i dotenv express promise-mysql
+--> npm install --save-dev @babel/core @babel/node
+--> npm install --save-dev @babel/preset-env
+--> npm i @babel/core
+--> npm i @Babel/cli
+--> npm install --save-dev @babel/core @babel/node
+
+//-D indica instalar dependencias para desarrollo
+--> npm i @Babel/cli @Babel/core @Babel/node  @Babel/preset-env morgan nodemon 
+
+CORRER  la api con-->npm run dev
+
+
+            
