@@ -7,9 +7,6 @@ import temasRoutes from "./routes/temas.routes";
 import detalleTemasRoutes from "./routes/detalleTemas.routes";
 const app = express();
 
-//istancia de los cors este paque soluciona los problemas de entradas y salidas de informacion
-const cors=require("cors");
-app.use(cors);
 
 //puertos que se pueden usar en este caso la variable que 
 //esta en archivos env si no esta instanciada la ignora y usa el puerto 4000
